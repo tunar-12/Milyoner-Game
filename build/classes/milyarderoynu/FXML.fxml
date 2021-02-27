@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="245.0" prefWidth="633.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="milyarderoynu.FXMLController">
+   <children>
+      <ImageView fx:id="arxa" fitHeight="316.0" fitWidth="633.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../mahni/Untitled.png" />
+         </image>
+      </ImageView>
+      <Button fx:id="ramiz1" layoutX="47.0" layoutY="122.0" mnemonicParsing="false" onAction="#ramizPr" prefHeight="29.0" prefWidth="222.0" style="-fx-background-color: light blue;" text="Ramiz Karaeski" textFill="#fffffe">
+         <font>
+            <Font size="22.0" />
+         </font>
+      </Button>
+      <Button fx:id="idris1" layoutX="370.0" layoutY="122.0" mnemonicParsing="false" onAction="#idrisPr" prefHeight="13.0" prefWidth="222.0" style="-fx-background-color: light blue;" text="İdris Koçovalı" textFill="#fffffe">
+         <font>
+            <Font size="22.0" />
+         </font>
+      </Button>
+      <Button fx:id="ezel1" layoutX="47.0" layoutY="183.0" mnemonicParsing="false" onAction="#ezelPr" prefHeight="29.0" prefWidth="222.0" style="-fx-background-color: light blue;" text="Ezel" textFill="#fffffe">
+         <font>
+            <Font size="22.0" />
+         </font>
+      </Button>
+      <Button fx:id="polat1" layoutX="370.0" layoutY="183.0" mnemonicParsing="false" onAction="#polatPr" prefHeight="29.0" prefWidth="222.0" style="-fx-background-color: light blue;" text="Polat Alemdar" textFill="#fffffe">
+         <font>
+            <Font size="22.0" />
+         </font>
+      </Button>
+      <Label fx:id="dogru" layoutX="197.0" layoutY="79.0" prefHeight="134.0" prefWidth="240.0" text="Doğru cavab">
+         <font>
+            <Font size="39.0" />
+         </font>
+      </Label>
+      <Label fx:id="yanlis" layoutX="197.0" layoutY="85.0" prefHeight="126.0" prefWidth="248.0" text="Yanlis cavab">
+         <font>
+            <Font size="42.0" />
+         </font>
+      </Label>
+      <Label fx:id="sual1" layoutX="83.0" layoutY="51.0" prefHeight="59.0" prefWidth="509.0" text="&quot;Ya Tarih yazcağız ya da Tarih olacağız &quot;sözleri kime aittir?" textFill="WHITE" textOverrun="LEADING_WORD_ELLIPSIS">
+         <font>
+            <Font size="19.0" />
+         </font>
+      </Label>
+      <Button fx:id="twoBas" layoutX="169.0" layoutY="183.0" mnemonicParsing="false" onAction="#twoBasl" prefHeight="25.0" prefWidth="311.0" style="-fx-background-color: white;" text="Digər suala keçmək üçün klik edin" />
+      <Label fx:id="sual2" layoutX="35.0" layoutY="51.0" prefHeight="59.0" prefWidth="564.0" text="Taumatawhakatangihangakoauauotamateaturipukakapikimaungahoronukupokaiwhenuakitanatahu  tepesi haradadir?" textFill="WHITE">
+         <font>
+            <Font size="10.0" />
+         </font>
+      </Label>
+      <Button fx:id="andorra2" layoutX="367.0" layoutY="123.0" mnemonicParsing="false" onAction="#andorraPr" prefHeight="48.0" prefWidth="230.0" style="-fx-background-color: light;" text="Andorra" textFill="WHITE">
+         <font>
+            <Font size="23.0" />
+         </font>
+      </Button>
+      <Button fx:id="tai2" layoutX="54.0" layoutY="114.0" mnemonicParsing="false" onAction="#taiPr" prefHeight="33.0" prefWidth="230.0" style="-fx-background-color: light;" text="Taiwand" textFill="WHITE">
+         <font>
+            <Font size="30.0" />
+         </font>
+      </Button>
+      <Button fx:id="zelandiya2" layoutX="54.0" layoutY="183.0" mnemonicParsing="false" onAction="#zelandiyaPr" prefHeight="37.0" prefWidth="230.0" style="-fx-background-color: light;" text="Yeni Zelandiya" textFill="WHITE">
+         <font>
+            <Font size="22.0" />
+         </font>
+      </Button>
+      <Button fx:id="portuqaliya2" layoutX="370.0" layoutY="188.0" mnemonicParsing="false" onAction="#portPr" prefHeight="32.0" prefWidth="230.0" style="-fx-background-color: light;" text="Portuqaliya" textFill="WHITE">
+         <font>
+            <Font size="19.0" />
+         </font>
+      </Button>
+      <Button fx:id="threeBas2" layoutX="169.0" layoutY="183.0" mnemonicParsing="false" onAction="#threebasl" prefHeight="25.0" prefWidth="311.0" style="-fx-background-color: white;" text="Digər suala keçmək üçün klik edin" />
+      <Label fx:id="sual3" layoutX="33.0" layoutY="51.0" prefHeight="59.0" prefWidth="564.0" text="İndiyə qədər Arka sokakların neçə rejissoru əcəli ilə ölüb." textFill="WHITE">
+         <font>
+            <Font size="22.0" />
+         </font>
+      </Label>
+      <Button fx:id="bir3" layoutX="58.0" layoutY="125.0" mnemonicParsing="false" onAction="#birPr" prefHeight="32.0" prefWidth="222.0" style="-fx-background-color: llight;" text="1" textFill="WHITE">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Button>
+      <Button fx:id="alti3" layoutX="370.0" layoutY="124.0" mnemonicParsing="false" onAction="#altiPr" prefHeight="33.0" prefWidth="230.0" style="-fx-background-color: light;" text="6" textFill="WHITE">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Button>
+      <Button fx:id="uc3" layoutX="58.0" layoutY="176.0" mnemonicParsing="false" onAction="#ucPr" prefHeight="48.0" prefWidth="222.0" style="-fx-background-color: light;" text="3" textFill="WHITE">
+         <font>
+            <Font size="29.0" />
+         </font>
+      </Button>
+      <Button fx:id="iki3" layoutX="370.0" layoutY="179.0" mnemonicParsing="false" onAction="#ikiPr" prefHeight="42.0" prefWidth="230.0" style="-fx-background-color: light;" text="2" textFill="WHITE">
+         <font>
+            <Font size="26.0" />
+         </font>
+      </Button>
+      <Button fx:id="yarisBitir" layoutX="169.0" layoutY="183.0" mnemonicParsing="false" onAction="#bitirPr" prefHeight="25.0" prefWidth="311.0" style="-fx-background-color: white;" text="Yarışı bitir" />
+   </children>
+</AnchorPane>
